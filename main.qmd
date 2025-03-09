@@ -1,0 +1,220 @@
+---
+title: "Minha trajetória na Ciência de Dados"
+author: "Guilherme Vituri"
+format: revealjs
+output-file: index.html
+theme: dark
+toc: true
+toc-title: Conteúdo
+toc-depth: 1
+number-sections: true
+number-depth: 1
+incremental: true
+slide-number: true
+scrollable: true
+smaller: false
+chalkboard: true
+overview: true
+
+progress: true
+history: true
+navigation-mode: vertical
+---
+
+```{r}
+background_images = function(base, ids = 1, extensao = "png") {
+  for (i in ids) {
+    cat(glue::glue('
+    
+## {{background-image="images/{base}{i}.{extensao}" background-size="contain"}}
+    
+    '))
+  }
+  
+}
+```
+
+
+# Minha formação
+
+## Ensino médio + curso técnico de informática
+
+- Lógica de programação
+
+- Pascal (!!)
+
+- VBA
+
+## Ensino superior
+
+- Bacharel em matemática (2010-2013)
+
+- Mestrado em Topologia Algébrica (2014-2015)
+
+- Doutorado em Topological Data Analysis (2016-2020)
+
+```{r, results='asis'}
+background_images('tda', 1)
+```
+
+## Ensino superior
+
+- Intercâmbio na Ohio State University (2018-2019)
+
+```{r, results='asis'}
+background_images('ohio', 1:3, 'jpg')
+```
+
+
+## Durante o doutorado
+
+- Tratamento de dados
+
+- Técnicas de visualização
+
+- Machine learning
+
+- R
+
+- Básico de github
+
+## Primeiro dashboard
+
+![](images/mapper1.png)
+
+## Trabalhos e artigos
+
+- Artigo publicado sobre recarga de aquíferos
+
+- Minicurso de Topological Data Analysis com Julia
+
+# Minha experiência na área
+
+## Empresa no Brasil
+
+- 2 anos como cientista de dados
+
+- 1 ano como coordenador da área
+
+- 2 anos como Head de Inteligência
+
+. . .
+
+Responsável por qualquer coisa envolvendo dados, relatórios, dashboards, APIs, automação, etc.
+
+## Empresa no exterior
+
+- 2 meses como R/Shiny dev
+
+- Escrever artigos em blog
+
+- Resolver problemas dos pacotes open source
+
+- Criação de dashboards para empresas estrangeiras
+
+## Habilidades
+
+- R (shiny, tidyverse, base): desde 2018
+
+- Julia: desde 2023
+
+- Rmarkdown/Quarto: desde 2020
+
+- Machine learning: desde 2018
+
+- MySQL/MariaDB: desde 2020
+
+- AWS: desde 2023
+
+# O que faz um cientista de dados
+
+## Em resumo
+
+De tudo!!!!
+
+::: {.notes}
+Diferença entre empresa grande e pequena?
+:::
+
+## Analista de dados
+
+- Limpar os dados
+
+- Criar dashboards com métricas úteis
+
+- Análise exploratória de dados
+
+## DBA
+
+- Criar bancos de dados
+
+- Indexar tabelas, normalizar
+
+- Gerenciar performance
+
+
+## Automação
+
+- Criar pipelines de dados
+
+- Gerar reports/emails em massa
+
+
+## Machine learning engineer
+
+- Criar modelos preditivos
+
+- Analisar métricas dos modelos
+
+- Colocar modelo em produção (API, EC2, etc)
+
+## DevOps
+
+- Subir aplicações e APIs na nuvem
+
+- Gerenciar hardware e acessos
+
+# Como achar um emprego
+
+## Conhece-te a ti mesmo
+
+- Descubra o que quer fazer!
+
+- No que você *é* bom?
+
+- No que você *quer ser* bom?
+
+## Linkedin
+
+- Procure por vagas que te interesse
+
+- Leia os requisitos de cada vaga: ferramentas e linguagens usadas
+
+- Aprenda essas ferramentas!!
+
+## Github
+
+- Crie um perfil
+
+- Aprenda o básico de git: branches, commits, pull requests
+
+- Escreva!!
+
+```{r, results='asis'}
+background_images('github')
+```
+
+
+## Projetos
+
+- Aprenda as ferramentas através de projetos
+
+- Transforme esses projetos em algo "visível" e coloque no github
+
+- Possibilidades: artigos, apps, pacotes, livros
+
+## {background-iframe="https://tidierorg.github.io/TidierBook/dataframes-whatis.html"}
+
+## Currículo
+
+# Extra: como trabalhar para uma empresa estrangeira
